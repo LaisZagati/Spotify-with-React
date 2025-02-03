@@ -1,71 +1,44 @@
-# Getting Started with Create React App
+Spotify Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+About the project
 
-## Available Scripts
+This project is a recreation of Spotify Web, developed during Alura's Front-end Dev Immersion. It features a simple interface and a search filter linked to a fake API. The project was built using HTML, CSS, JavaScript, and React, along with JSON-Server.
 
-In the project directory, you can run:
+Features
+✅ Functional search bar: Filters registered artists and playlists based on the search input.
 
-### `npm start`
+Project Structure
+📂 public/: Stores React's predefined files and the project’s favicon.
+📂 src/: Stores the subfolders "assets" and "components", along with other files.
+    📂 components/: Contains the "Footer", "Main", and "Sidebar" subfolders for componentization. (Each subfolder includes its respective JS files for application structure and CSS files for styling).
+    📜 script.js: Handles the logic for the search filter.
+    📜 App.js: The main file, combining all components.
+    📜 App.css: Dedicated styling file for resets, CSS variables, body styling, and media queries.
+📜 App.test.js, index.css, index.js, reportWebVitals.js, setupTests.js, package-lock.json, package.json: Files that come with the React application by default.
+📂 assets/: Stores "icons" and "playlists" subfolders.
+    📂 icons/: Contains icons used in the project.
+    📂 playlists/: Contains images of playlists displayed on the main page.
+📜 artists.json: Stores the fake API data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Prerequisites
+🔹 A modern browser like Google Chrome, Mozilla Firefox, or Microsoft Edge.
+🔹 An IDE like VSCode.
+🔹 All project files correctly linked.
+🔹 NodeJS and NPM installed.
+🔹 Required JSON-Server version: 0.17.0 or 0.17.4.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+How to Use:
 
-### `npm test`
+1️⃣ Clone the repository or copy the files to your computer.
+2️⃣ Ensure all files are in the same directory.
+3️⃣ Install NodeJS and NPM via your terminal.
+4️⃣ Install JSON-Server in the required version.
+5️⃣ Open the IDE terminal and start JSON-Server on port 5000 using: json-server --watch artists.json --port 5000
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6️⃣ Open another terminal and start the React application with:
 
-### `npm run build`
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+7️⃣ Explore the project! 🎵🚀
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Spotify-with-React
+Let me know if you need any modifications! 😊
